@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	padding:0;
+	margin:0;
+	font-family:"微软雅黑"；
+    }
+	ul, li{
+	padding:0;
+	margin:0;	
+	}
+.content{
+	width:100%;
+	mini-width:1000px;
+	margin:0 auto;
+	}
+.header{
+	height:100px;
+	width:1000px;
+	background:#CBD3E4;
+	margin:0 auto;
+	}
+.header img	{
+	float:left;
+	}
+.quickLinks{
+	width:30%;
+	height:50px;
+	margin-top:32px;
+	float:right;
+	text-align:center;
+	}	
+.quickLinks a{
+	display:inline-block;
+	width:60px;
+	height:36px;
+	border:1px #3E89EE solid;
+	color:#1176DB;
+	text-decoration:none;
+	font-size:12px;
+	line-height:36px;
+	
+	}	
+.quickLinks a:hover{
+	box-shadow:0 0 10px #A9CFEB;
+	}	
+.nav{
+	width:100%;
+	height:60px;
+	background:#93B9EC;
+	
+	}	
+.nav ul li{
+	text-align:center;
+	list-style:none;
+	float:left;
+	width:100px;
+	height:60px;
+	line-height:60px;
+	
+	
+	}	
+.nav ul li a{
+	display:block;
+	
+	color:white;
+	text-decoration:none;
+	}	
+	
+.nav ul{
+	width:800px;
+	margin:0 auto;
+	}	
+.nav ul li:hover{
+	background:#CCC;
+	transition:2s;
+	}	
+.banner{
+	width:100%;
+	height:300px;
+	background:url("../img/banner1.jpg") no-repeat;
+	background-size:100%;
+	}	
